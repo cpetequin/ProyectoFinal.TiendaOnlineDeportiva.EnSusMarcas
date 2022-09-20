@@ -1,0 +1,20 @@
+$estiloSucursal: (
+	margen: 5px,
+	estiloLetra: Normal,
+	tipoLetra: $font-family_1,
+	tamañoLetra: 1rem,
+	colorLetra: $color_2,
+	alinText: center
+);
+// map para pisar el color del boton de bootstrap
+$btnBuscar:(
+	btnIndex: blue,
+	btnNosotros: mediumblue,
+	btnProductos: dodgerblue 
+	);
+@each $btnpagina, $color in $btnBuscar{
+	.btn--#{$btnpagina}{
+		background-color: $color;
+		border-color: $color;
+		}
+	}

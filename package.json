@@ -1,0 +1,17 @@
+{
+  "name": "proyectofinal.tiendaonlinedeportiva.ensusmarcas",
+  "version": "1.0.0",
+  "description": "Aplique SASS y adapte el proyecto a SEO.\r En cada una de las paginas coloque las etiquetas metas; meta name=\"description\" y meta name=\"keywords\".\r Modifique los alt de las imagenes.\r Edite el tamaño de las imagenes.\r Renombre las imagenes.\r Coloque un solo H1 por html.\r Aplique un map para el color y border del boton buscar de la nav.\r Coloque punto y coma faltantes en mi partial contacto.\r Comente todos mis html.\r Html productos esta maquetado con grid, use AOS y flexbox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
