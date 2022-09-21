@@ -236,6 +236,8 @@ header img {
   .cardsProductos .card-body {
     background-color: rgba(211, 211, 211, 0.2);
     padding-bottom: 20px; }
+  .cardsProductos .btnCard {
+    background-color: #0d6efd; }
 
 .pieProductos {
   grid-area: footer;
@@ -311,8 +313,6 @@ header img {
   .buscar {
     grid-area: buscar;
     padding-bottom: 10px; }
-  .cuerpoProductos .cardProducto3, .cuerpoProductos .cardProducto4 {
-    margin-bottom: 20px; }
   .cuerpoProductos .cardProducto5, .cuerpoProductos .cardProducto6 {
     display: none; }
   .pieProductos {

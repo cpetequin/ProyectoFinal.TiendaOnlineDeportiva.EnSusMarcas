@@ -57,12 +57,13 @@
 	border-radius: 0.25rem;
 	margin: 0px;
 }
+
 .navLink {
 	grid-area: navLink;
 	display: grid;
 	align-content: center;
     justify-content: center;
-	ul {    
+	ul {
 		list-style-type: none;
     	margin: 0;
    		padding: 0;
@@ -130,8 +131,8 @@
 }
 .cardsProductos {
 	grid-area: cardsProductos;
-	display: flex; 
-	flex-direction: row; 
+	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
     .card {
@@ -152,7 +153,8 @@
 	}
 	.btnCard {
 		@extend .btnBuscar;
-	}	
+		background-color: #0d6efd;
+	}
 }
 .pieProductos {
 	grid-area: footer;
@@ -223,7 +225,6 @@
 	padding-bottom: 10px;
 }
 .cuerpoProductos {
-	.cardProducto3, .cardProducto4 {margin-bottom: 20px;}
 	.cardProducto5, .cardProducto6 {display: none;}
 }
 .pieProductos {
